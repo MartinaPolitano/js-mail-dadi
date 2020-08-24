@@ -18,4 +18,18 @@ for(var i=0; i<emails.lenght; i++){
 
 
 
-var numeroRandomPlayer = Math.floor
+var numeroRandomPlayer = Math.floor(Math.random() * 6) +
+console.log(numeroRandomPlayer);
+
+var numeroRandomPlayer = Math.floor (Math.random() *6) +1;
+console.log(numeroRandomComputer);
+
+if (numeroRandomPlayer>numeroRandomComputer) {
+  console.log("vince il giocatore")
+}
+else if (numeroRandomPlayer == numeroRandomcomputer)
+console.log("Parità");
+}
+else{
+  console.log("vince il computer");
+}
